@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dominio;
+using Datos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +10,13 @@ namespace Presentacion.Controllers
 {
     public class HomeController : Controller
     {
+        private MProductos mProductos = new MProductos();
         public ActionResult Index()
         {
-            return View();
+            //var x = new Producto();
+            //x.Nombre = "Casa";
+            //mProductos.Add(x);
+            return View(mProductos.Todos());
         }
 
         public ActionResult About()

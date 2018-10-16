@@ -47,7 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context.cs" />
+    <Compile Include="ERPContext.cs" />
+    <Compile Include="MProductos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ModuloInventario\ModuloInventario.csproj">
-      <Project>{2053095E-6C8E-4BC1-B884-8FA2DCB217C0}</Project>
-      <Name>ModuloInventario</Name>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{cab36eaf-63c5-4b1b-8d91-dd514f7f8193}</Project>
+      <Name>Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
