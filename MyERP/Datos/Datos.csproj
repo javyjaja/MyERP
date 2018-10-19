@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CargaInicial.cs" />
     <Compile Include="ERPContext.cs" />
+    <Compile Include="MCategorias.cs" />
     <Compile Include="MProductos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

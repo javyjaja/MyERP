@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public class Categoria_Caracteristica
+    public class TipoDatos
     {
         [Key]
-        public int Categoria_CaracteristicaId { get; set; }
+        public int TipoDatosId { get; set; }
+        public string Nombre { get; set; }
 
-        public int CategoriaId { get; set; }
-
-        public int CaracteristicaId { get; set; }
+        public string Descripcion { get; set; }
     }
 }

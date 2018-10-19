@@ -12,7 +12,7 @@ namespace Dominio
         [Key]
         public int CaracteristicaId { get; set; }
 
-        public int ProductoId { get; set; }
+        //public int ProductoId { get; set; }
 
         public string Nombre { get; set; }
 

@@ -45,7 +45,10 @@
     <Compile Include="Categoria.cs" />
     <Compile Include="Categoria_Caracteristica.cs" />
     <Compile Include="Producto.cs" />
+    <Compile Include="Producto_Caracteristica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoDatos.cs" />
+    <Compile Include="ViewModelCategoria.cs" />
     <Compile Include="ViewModelProducto.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
