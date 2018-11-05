@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,8 +17,11 @@ namespace Presentacion.Controllers
 
         public ActionResult AgregarCategoria()
         {
+            var o = new ViewModelCategoria();
+            o.caracteristicas = new List<Caracteristica>();
+            
 
-            return View();
+            return View(o);
         }
 
         public ActionResult VerCategorias()
